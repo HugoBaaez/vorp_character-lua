@@ -356,7 +356,7 @@ Translation.Langs = {
         promptlabel_male = "Personagem masculino",
         Inputs = {
             confirm = "Confirmar",
-            placeholder = "nome sobrenome",
+            placeholder = "Nome Sobrenome",
             inputHeader = "ESCOLHA O NOME DO PERSONAGEM",
             title = "Somente letras min 5 max 20",
             banned = "você não pode usar esses nomes, pois eles são considerados proibidos neste servidor"
@@ -424,13 +424,11 @@ Translation.Langs = {
             element4 = { label = "Envelhecimento", desc = "Idade do personagem " },
             element5 = { label = "Altura", desc = "Escolha a altura do seu personagem<br> Alto 3 normal 2 baixo 1 " },
             element6 = { label = "Rosto", desc = "Escolha as características do rosto" },
-            element7 = { label = "Estilo de vida", desc = "Escolha o estilo de vida do seu personagem" },
+            element7 = { label = "Marcas", desc = "Escolha as marcas do seu personagem" },
             element8 = { label = "Maquiagem", desc = "Escolha a maquiagem" },
-            shortOne = "Bem Baixo",
-            shortTwo = "Baixo",
+            short = "Baixo",
             normal = "Normal",
-            tallOne = "Alto",
-            tallTwo = "Bem Alto",
+            tall = "Alto",
         },
         MenuAge = {
             title = "Idade",
@@ -445,6 +443,8 @@ Translation.Langs = {
             subtitle = "Sub Menu",
             element = { label = "Tipo do corpo", desc = "existem ", },
             element2 = { label = "Cintura #", desc = "existem #", desc2 = "tipos de cintura" },
+            element3 = { label = "Tórax", desc = "Existem " },
+            element4 = { label = "Pernas", desc = "Existem " },
         },
         MenuHeritage = {
             title = "Herança",
@@ -476,8 +476,8 @@ Translation.Langs = {
             element3 = { label = "Visibilidade", desc = "Ajuste a Visibilidade" },
         },
         MenuFacial = {
-            title = "Características da Cara",
-            subtitle = "Escolha as Características da sua Face",
+            title = "Características do Rosto",
+            subtitle = "Escolha as Características do seu Rosto",
             element = { label = "Cor dos Olhos", desc = "Ajuste a Cor dos Olhos" },
             element2 = { label = "Dentes", desc = "Ajuste o tipo de Dentes " },
             element3 = { label = "Maxilar", desc = "Ajuste o Maxilar", },
@@ -509,8 +509,8 @@ Translation.Langs = {
             element8 = { label = "Sujeira", desc = "Ajuste a Visibilidade da Sujeira" },
         },
         MenuMakeup = {
-            title = "Maquilhagem",
-            subtitle = "Escolha a sua Maquilhagem",
+            title = "Maquiagem",
+            subtitle = "Escolha a sua Maquiagem",
             element = { label = "Batom", desc = "Ajuste o Batom" },
             element2 = { label = "Blush", desc = "Ajuste o Blush" },
             element3 = { label = "Eyeliner", desc = "Ajuste o Eyeliner" },
